@@ -6,6 +6,5 @@ bool isPalindrome(int x) {
         reverse = reverse*10 + x%10;
         x /= 10;
     }
-    if(original == reverse) return true;
-    return false;
+    return original == reverse;
 }
