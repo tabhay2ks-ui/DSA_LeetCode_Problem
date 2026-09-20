@@ -9,7 +9,7 @@ public:
                 ans[negIndex] = nums[i];
                 negIndex +=2;
             }
-            if(nums[i] > 0){
+            else{
                 ans[posIndex] = nums[i];
                 posIndex +=2;
             }
